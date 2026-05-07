@@ -187,3 +187,10 @@ button:hover {
     text-align: center;
     margin-top: 30px;
 }
+
+.gallery img {
+    width: 28%;
+    margin: 10px;
+    border-radius: 10px;
+    transition: 0.3s;
+}

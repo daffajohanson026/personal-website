@@ -1,65 +1,63 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Gallery</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
 
-<body background="media/images/web-bg.png">
+<body>
 
-<center>
-    <h1>Gallery</h1>
-    <p>My media collection 📸</p>
-</center>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact Me</a>
+    </nav>
 
-<hr>
+    <div class="container">
 
-<center>
-    <a href="index.html">Home</a> |
-    <a href="gallery.html">Gallery</a> |
-    <a href="blog.html">Blog</a> |
-    <a href="contact.html">Contact me</a>
-</center>
+        <h1>Gallery</h1>
 
-<hr>
+        <p class="welcome-text">
+            My media collection 📸
+        </p>
 
-<table width="80%" align="center">
+        <hr>
 
-<tr>
-    <td align="center">
-        <img src="media/images/photo1.jpeg" width="200" border="2"><br>
-        <p>Photo 1</p>
-    </td>
+        <div class="gallery">
 
-    <td align="center">
-        <img src="media/images/photo2.jpeg" width="200" border="2"><br>
-        <p>Photo 2</p>
-    </td>
+            <img src="media/images/photo1.jpeg">
 
-    <td align="center">
-        <img src="media/images/photo3.jpeg" width="200" border="2"><br>
-        <p>Photo 3</p>
-    </td>
-</tr>
-</table>
+            <img src="media/images/photo2.jpeg">
 
-<table width="80%" align="center">
-    <center>
-<tr>
-    <td align="center">
-    <h3>Video Highlight</h3>
-    <video width="60%" controls>
-        <source src="media/videos/video1.mp4">
-    </video>
-</td>
-</tr>
-    </center>
-</table>
+            <img src="media/images/photo3.jpeg">
 
-<hr>
+        </div>
 
-<center>
-    <p><small>© 2026 Daffa Mirza Johanson | Gallery Page</small></p>
-</center>
+        <hr>
+
+        <div class="section">
+
+            <h2>Featured Video</h2>
+
+            <video width="70%" controls>
+                <source src="media/videos/video1.mp4">
+            </video>
+
+        </div>
+
+    </div>
+
+    <div class="footer">
+
+        <p>
+            © 2026 Daffa Mirza Johanson |
+            Gallery Page
+        </p>
+
+    </div>
 
 </body>
 </html>
