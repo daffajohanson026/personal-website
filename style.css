@@ -194,3 +194,7 @@ button:hover {
     border-radius: 10px;
     transition: 0.3s;
 }
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
