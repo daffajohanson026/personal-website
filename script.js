@@ -26,3 +26,11 @@ function generateQuote() {
 function toggleDarkMode() {
     document.body.classList.toggle("dark-mode");
 }
+
+function showMessage(event) {
+
+    event.preventDefault();
+
+    alert("Message submitted successfully! 📬");
+
+}

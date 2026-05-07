@@ -1,67 +1,102 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <title>Contact me</title>
+    <title>Contact Me</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
 
-<body background="media/images/web-bg.png">
+<body>
 
-<center>
-    <h1>Contact Me</h1>
-    <p>Feel free to reach out! 📬</p>
-</center>
-
-<hr>
-
-<center>
-    <b>
-        <a href="index.html">Home</a> |
-        <a href="gallery.html">Gallery</a> |
-        <a href="blog.html">Blog</a> |
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="blog.html">Blog</a>
         <a href="contact.html">Contact</a>
-    </b>
-</center>
+    </nav>
 
-<hr>
+    <div class="container">
 
-<table width="60%" align="center" cellpadding="10" border="1" bgcolor="white">
-<tr>
-<td>
+        <h1>Contact Me</h1>
 
-    <h2>Contact Information</h2>
-    <p><b>Name:</b> Daffa Mirza Johanson</p>
-    <p><b>Email:</b> daffajohanson026@student.unsrat.ac.id</p>
-    <p><b>Phone:</b> +62 831-3385-0164</p>
+        <p class="welcome-text">
+            Feel free to reach out 📬
+        </p>
 
-    <hr>
+        <hr>
 
-    <h2>Send a Message</h2>
+        <div class="contact-info">
 
-    <form>
-        <p>Name:</p>
-        <input type="text" size="40">
+            <h2>Personal Information</h2>
 
-        <p>Email:</p>
-        <input type="email" size="40">
+            <p>
+                <strong>Name:</strong>
+                Daffa Mirza Johanson
+            </p>
 
-        <p>Message:</p>
-        <textarea rows="5" cols="40"></textarea>
+            <p>
+                <strong>Email:</strong>
+                daffajohanson026@student.unsrat.ac.id
+            </p>
 
-        <br><br>
+            <p>
+                <strong>Phone:</strong>
+                +62 831-3385-0164
+            </p>
 
-        <button type="submit">Send</button>
-        <button type="reset">Reset</button>
-    </form>
+        </div>
 
-</td>
-</tr>
-</table>
+        <hr>
 
-<hr>
+        <div class="contact-form">
 
-<center>
-    <p><small>© 2026 Daffa Mirza Johanson | Contact Page</small></p>
-</center>
+            <h2>Send a Message</h2>
+
+            <form onsubmit="showMessage(event)">
+
+                <label>Name</label>
+
+                <input type="text"
+                       placeholder="Enter your name"
+                       required>
+
+                <label>Email</label>
+
+                <input type="email"
+                       placeholder="Enter your email"
+                       required>
+
+                <label>Message</label>
+
+                <textarea rows="6"
+                          placeholder="Write your message..."
+                          required></textarea>
+
+                <button type="submit">
+                    Send Message
+                </button>
+
+                <button type="reset">
+                    Reset
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+    <div class="footer">
+
+        <p>
+            © 2026 Daffa Mirza Johanson |
+            Contact Page
+        </p>
+
+    </div>
+
+    <script src="script.js"></script>
 
 </body>
 </html>
